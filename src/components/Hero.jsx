@@ -3,10 +3,10 @@ import profile_pic from '../../src/assets/profile.jpeg'
 
 const Hero = () => {
   return (
-    <div id='hero' className='flex flex-col items-center gap-6 sm:gap-15 sm:py-40 py-20 max-sm:py-25 max-sm:pt-45 max-sm:pb-20 px-4 sm:px-12
+    <div id='hero' className='flex flex-col items-center lg:gap-4 max-sm:gap-8 sm:py-40 py-20 max-sm:py-25 max-sm:pt-45 max-sm:pb-20 px-4 sm:px-12
     lg:px-24 xl:px-40 text-center w-full overflow-hidden text-white'>
 
-        <img src={profile_pic} alt="" className='rounded-full w-35 hover:scale-140 duration-900' />
+        <img src={profile_pic} alt="" className='rounded-full w-35 hover:scale-120 duration-700' />
 
             <h3 className='text-2xl sm:text-2xl md:text-3xl xl:text-[30px] font-medium max-w-5xl'>I'm Kwame Dawson</h3>
             
